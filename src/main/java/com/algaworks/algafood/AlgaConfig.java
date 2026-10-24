@@ -15,6 +15,10 @@ public class AlgaConfig {
 		
 		return notificador;
 	}
-
+	
+	@Bean
+	public AtivacaoClienteService ativacaoClienteService() {
+		return new AtivacaoClienteService(notificadorEmail());
+	}
 	
 }

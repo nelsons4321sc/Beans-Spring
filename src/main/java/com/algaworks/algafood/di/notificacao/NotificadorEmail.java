@@ -2,7 +2,6 @@ package com.algaworks.algafood.di.notificacao;
 
 import com.algaworks.algafood.di.modelo.Cliente;
 
-
 public class NotificadorEmail implements Notificador {
 	
 	private boolean caixaAlta;
